@@ -36,7 +36,7 @@ points.
 ## Build and launch
 
 ```bash
-cd ~/ipe-ethercat-ros2-control
+cd ~/ipe-single-joint-ethercat-ros2-control
 ./scripts/build_ros2_project.sh
 ./scripts/setup_project_capability.sh
 ```

@@ -91,7 +91,7 @@ publishing one command; that does not stop the launch or controller.
 Run after the first checkout or after changing code, Xacro, or parameters:
 
 ```bash
-cd ~/ipe-ethercat-ros2-control
+cd ~/ipe-single-joint-ethercat-ros2-control
 cp .env.example .env
 ./scripts/check_system.sh
 ./scripts/build_ros2_project.sh
@@ -106,14 +106,14 @@ project node. Re-run it if that executable is relinked and `getcap` becomes empt
 Terminal 1:
 
 ```bash
-cd ~/ipe-ethercat-ros2-control
+cd ~/ipe-single-joint-ethercat-ros2-control
 ./scripts/run_mock_project.sh
 ```
 
 Terminal 2:
 
 ```bash
-cd ~/ipe-ethercat-ros2-control
+cd ~/ipe-single-joint-ethercat-ros2-control
 source scripts/project_env.sh
 ipe_source_ros
 ipe_source_workspace
@@ -153,7 +153,7 @@ its original terminal with `quit` or `Ctrl+C`.
 ### Terminal 1: start and keep running
 
 ```bash
-cd ~/ipe-ethercat-ros2-control
+cd ~/ipe-single-joint-ethercat-ros2-control
 ./scripts/run_cst_project.sh
 ```
 
@@ -166,7 +166,7 @@ disabled until terminal 2 activates a motion controller.
 Prepare every new terminal:
 
 ```bash
-cd ~/ipe-ethercat-ros2-control
+cd ~/ipe-single-joint-ethercat-ros2-control
 source scripts/project_env.sh
 ipe_source_ros
 ipe_source_workspace
@@ -273,7 +273,7 @@ watching tracking error, current, and temperature.
 Interactive direct console:
 
 ```bash
-cd ~/ipe-ethercat-ros2-control
+cd ~/ipe-single-joint-ethercat-ros2-control
 ./scripts/run_three_mode_logged.sh
 ```
 
@@ -283,7 +283,7 @@ EtherCAT connection. Do not run a ROS EtherCAT launch at the same time.
 Conservative single-joint monitor:
 
 ```bash
-cd ~/ipe-ethercat-ros2-control/ipe
+cd ~/ipe-single-joint-ethercat-ros2-control/ipe
 sudo ./build-safe/single_joint_lab monitor
 ```
 

@@ -15,7 +15,7 @@ commissioning tool, not the production ROS 2 application.
 ## Build
 
 ```bash
-cd ~/ipe-ethercat-ros2-control
+cd ~/ipe-single-joint-ethercat-ros2-control
 cmake -S ipe -B ipe/build-safe -DCMAKE_BUILD_TYPE=Release
 cmake --build ipe/build-safe --target single_joint_lab ipe_joint_units_test -j
 ctest --test-dir ipe/build-safe --output-on-failure
@@ -143,7 +143,7 @@ normal disable and safe EtherCAT shutdown.
 The direct adapter console is better for comparing all three modes:
 
 ```bash
-cd ~/ipe-ethercat-ros2-control
+cd ~/ipe-single-joint-ethercat-ros2-control
 ./scripts/run_three_mode_logged.sh
 ```
 

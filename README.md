@@ -1,4 +1,6 @@
-# IPE EtherCAT ROS 2 Control
+# IPE Single-Joint EtherCAT ROS 2 Control
+
+<img src="docs/images/irgml-14-i.jpg" alt="IPE IRGML-14-I integrated EtherCAT rotary joint" width="520">
 
 A layered EtherCAT and ROS 2 control stack for the IPE IRGML-14-I integrated
 rotary joint. The project connects application-level joint trajectories to a
@@ -110,8 +112,8 @@ build, including SOEM. Build output and workstation settings are deliberately
 regenerated on each computer.
 
 ```bash
-git clone https://github.com/haomingyi/ipe-ethercat-ros2-control.git
-cd ipe-ethercat-ros2-control
+git clone https://github.com/haomingyi/ipe-single-joint-ethercat-ros2-control.git
+cd ipe-single-joint-ethercat-ros2-control
 cp .env.example .env
 ```
 

@@ -34,8 +34,8 @@ path in `.env`.
 ### 2. Clone and configure
 
 ```bash
-git clone https://github.com/haomingyi/ipe-ethercat-ros2-control.git
-cd ipe-ethercat-ros2-control
+git clone https://github.com/haomingyi/ipe-single-joint-ethercat-ros2-control.git
+cd ipe-single-joint-ethercat-ros2-control
 cp .env.example .env
 ip -brief link
 ```
